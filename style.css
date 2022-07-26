@@ -3,3 +3,44 @@
     padding: 0px;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    padding: 30px;
+    margin-bottom: 100px;
+}
+
+.orange_txt{
+    color:orange;
+}
+
+.display_flex{
+    display:flex;
+}
+
+.half_width{
+    width: 50%;
+}
+
+.half_width img{
+    width: 50%;
+}
+
+body h1{
+    font-size: 50px;
+}
+
+.link_button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,rgb(252, 89, 19));
+    padding: 10px 40px;
+    border-radius: 25px;
+    color: white;
+}
+
+#about_me_bannar{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
