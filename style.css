@@ -15,6 +15,9 @@ section{
 .orange_txt{
     color:orange;
 }
+.grey_txt{
+    color:grey;
+}
 
 .display_flex{
     display:flex;
@@ -24,7 +27,8 @@ section{
     width: 50%;
 }
 .half_width img{
-    width: 70%;
+    width: 72%;
+    padding-left: 200px;
 }
 .half_width02{
     width: 50%;
@@ -44,16 +48,16 @@ body h1{
 
 .link_button{
     text-decoration: none;
-    background-image: linear-gradient(orange,rgb(252, 89, 19));
-    padding: 10px 40px;
-    border-radius: 25px;
+    background-image: linear-gradient(rgb(240, 179, 66),rgb(252, 89, 19));
+    padding: 20px 45px;
+    border-radius: 30px;
     color: white;
     margin-top: 2000px;
 }
 
 #about_me_bannar{
     background-image: url(images/shapes/7.png);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover ;
     }
 
@@ -74,14 +78,16 @@ body h1{
 
 
 .padding_class{
-    padding-top: 120px;
-    padding-left: 30px;
+    padding-top: 135px;
+    padding-left: 80px;
 }
 
-/* This padding is used for about me image */
-#padding_id{
-    
+.padding_class h1{
+    font-size: 55px;
 }
+
+
+
 
 .recipies_item{
     box-shadow: 10px 10px 30px gray;
@@ -99,8 +105,9 @@ body h1{
 
 #social_media{
     box-shadow: 10px 10px 40px grey;
-    margin:20px 60px ;   
+    margin:40px 60px ;   
     border-radius: 10px;
+    
 }
 
 /*I thought I have to do this way*/
@@ -119,25 +126,30 @@ body h1{
 }
 
 footer{
-    height: 210px;
+    height: 180px;
     background-color: black;
     color: white;
     text-align: center;
     padding-top: 50px;
 }
 
-#gray_txt{
-    color: gray;
+footer h2{
+    font-size: 40px;
+    
 }
+
 
 .text_align_center{
     text-align: center;
 }
 
 #about_me_bannar img{
-    padding-left: 100px; 
+    padding-bottom: 50px;
+    padding-left: 80px; 
     border: 5px solid red;
-    position: static;
+    width: 50%;
+
+    
        
 }
 
