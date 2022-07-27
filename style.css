@@ -94,6 +94,7 @@ footer{
 /* This padding is used for about me image */
 #padding_id{
     padding-left: 100px; 
+    padding-top: 50px;
 }
 
 .recipies_item{
@@ -110,7 +111,11 @@ footer{
     padding-right: 20px;
 }
 
-
+#social_media{
+    box-shadow: 10px 10px 40px grey;
+    margin:20px 60px ;   
+    border-radius: 10px;
+}
 
 .center {
     display: block;
