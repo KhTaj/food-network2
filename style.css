@@ -59,6 +59,7 @@ body h1{
     background-image: url(images/shapes/7.png);
     /* background-repeat: no-repeat; */
     background-size: cover ;
+    height: 550px;
     }
 
 
@@ -146,7 +147,6 @@ footer h2{
 #about_me_bannar img{
     padding-bottom: 50px;
     padding-left: 80px; 
-    border: 5px solid red;
     width: 50%;
 
     
