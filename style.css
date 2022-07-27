@@ -99,8 +99,22 @@ footer{
 .recipies_item{
     box-shadow: 10px 10px 30px gray;
     width: 30%;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
     padding: 10px;
     border-radius: 15px;
 }
+
+#padding_foodItem{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
