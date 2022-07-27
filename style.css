@@ -44,3 +44,18 @@ body h1{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
 }
+
+.width_30percent{
+    width: 30%;
+}
+.width_30percent img{
+    width:60%;
+}
+
+footer{
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
