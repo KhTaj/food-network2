@@ -28,10 +28,11 @@ section{
 }
 .half_width02{
     width: 50%;
+    
 
 }
 .half_width02 img{
-    width: 40%;
+    width: 50%;
     
 }
 
@@ -136,8 +137,14 @@ footer{
 #about_me_bannar img{
     padding-left: 100px; 
     border: 5px solid red;
-    background-position: 0 0;
-    bottom: 0px;
-    
-
+    position: static;
+       
 }
+
+.about_mySelf{
+    padding-top: 70px;
+}
+
+/* .my_photo_div{
+    padding-top: 400px;
+} */
